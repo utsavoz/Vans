@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Vans Campaign</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="./style.css">
+
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <div class="landscape">
+    <div class="skate-container">
+      <div class="skate">
+        <div class="skate-board">
+          <img class="skateboard" src="./skateboard.svg">
+          <img class="character" src="./Skate-character3.gif">
+          <img class="left-shoe" id="left" src="./Skate- deco-13.svg">
+          <img class="right-shoe" id="right" src="./Skate- deco-02.svg">
+          <img class="lineleft" id="line" src="./lines-09.svg">
+          <img class="lineright" id="line2" src="./lines-10.svg">
+
+        </div>
+
+        <div class="skate-wheels">
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div class="skate-shadow"></div>
+      <div class="skate-smoke">
+        <div class="skate-smoke_item"></div>
+        <div class="skate-smoke_item"></div>
+        <div class="skate-smoke_item"></div>
+      </div>
+    </div>
+    <div class="obstacles">
+      <img class="obstacle_square" src="./cone.svg">
+    </div>
+    <img class="obstacle_triangle" src="./floor.svg">
+  </div>
+  </div>
+  <div class="god">
+
+    <div class="clouds">
+      <img class="small-left-cloud" src="./Skate- deco-10.svg"></img>
+      <img class="small-right-cloud" src="./Skate- deco-11.svg"></img>
+    </div>
+    <div class="clouds2">
+      <img src="./Skate- deco-08.svg"></img>
+      <img src="./Skate- deco-09.svg"></img>
+    </div>
+    <div class="clouds3">
+      <img src="./Skate- deco-08.svg"></img>
+      <img src="./Skate- deco-09.svg"></img>
+    </div>
+    <div class="clouds4">
+      <img src="./Skate- deco-08.svg"></img>
+      <img src="./Skate- deco-09.svg"></img>
+    </div>
+    <div class="clouds5">
+      <img src="./Skate- deco-08.svg"></img>
+      <img src="./Skate- deco-09.svg"></img>
+    </div>
+    <div class="clouds6">
+      <img src="./Skate- deco-08.svg"></img>
+      <img src="./Skate- deco-09.svg"></img>
+    </div>
+    <div class="herearetheshoes">
+      <img class="hand" src="Skate- deco-12.svg"></img>
+      <div class="pulse">
+        <img class="box" id="box" src="./Skate- deco-06.svg"></img>
+      </div>
+
+    </div>
+
+
+
+  </div>
+  </div>
+
+  <img class="logo" src="./logo.svg">
+  <!-- partial -->
+  <script>
+
+    function ripshoes() {
+      setTimeout(function () {
+        document.getElementById("right").src = "./Skate- deco-03.svg";
+        document.getElementById("left").src = "./leftshoe-06.svg";
+      }, 1900);
+      setTimeout(function () {
+        document.getElementById("right").src = "./Skate- deco-04.svg";
+        document.getElementById("left").src = "./leftshoe-07.svg";
+      }, 3400);
+      setTimeout(function () {
+        document.getElementById("right").src = "./Skate- deco-05.svg";
+        document.getElementById("left").src = "./leftshoe-08.svg";
+        document.getElementById("box").src = "./Skate- deco-07.svg";
+        document.getElementById("line").style.display = "block";
+        document.getElementById("line2").style.display = "block";
+
+      }, 6500);
+    }
+    ripshoes();
+
+  </script>
+</body>
+
+</html>
