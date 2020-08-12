@@ -540,7 +540,7 @@
 .herearetheshoes{
   position: absolute;
   right: calc(20vw - 300px);
-  top: calc(0vh + 20px);
+  top: 0vh;
   z-index: 1;
   /*animation: herearetheshoes 0.5s cubic-bezier() 5s;*/
 }
